@@ -1,0 +1,594 @@
+2023-09-10 18:22:45,405 INFO  [main] c.m.m.Launcher.main(77): ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.70, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, jogui]
+2023-09-10 18:22:45,417 INFO  [main] c.m.m.Launcher.<init>(52): ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 20.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+2023-09-10 18:22:45,458 DEBUG [main] c.m.m.LaunchServiceHandler.<init>(41): Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+2023-09-10 18:22:45,475 DEBUG [main] c.m.m.NameMappingServiceHandler.<init>(44): Found naming services : [srgtomcp]
+2023-09-10 18:22:45,492 DEBUG [main] c.m.m.LaunchPluginHandler.<init>(58): Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
+2023-09-10 18:22:45,506 DEBUG [main] c.m.m.TransformationServicesHandler.discoverServices(120): Discovering transformation services
+2023-09-10 18:22:45,511 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path GAMEDIR is F:\Minecraft Server\MOHIST SERVER 1.20
+2023-09-10 18:22:45,511 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path MODSDIR is F:\Minecraft Server\MOHIST SERVER 1.20\mods
+2023-09-10 18:22:45,528 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path CONFIGDIR is F:\Minecraft Server\MOHIST SERVER 1.20\config
+2023-09-10 18:22:45,528 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path FMLCONFIG is F:\Minecraft Server\MOHIST SERVER 1.20\config\fml.toml
+2023-09-10 18:22:45,630 DEBUG [main] c.m.m.TransformationServicesHandler.discoverServices(128): Found additional transformation services from discovery services: 
+2023-09-10 18:22:45,637 INFO  [main] n.m.f.l.ImmediateWindowHandler.load(28): ImmediateWindowProvider not loading because launch target is forgeserver
+2023-09-10 18:22:45,646 DEBUG [main] c.m.m.TransformationServicesHandler.discoverServices(140): Found transformer services : [mixin,fml]
+2023-09-10 18:22:45,646 DEBUG [main] c.m.m.TransformationServicesHandler.loadTransformationServices(115): Transformation services loading
+2023-09-10 18:22:45,647 DEBUG [main] c.m.m.TransformationServiceDecorator.onLoad(52): Loading service mixin
+2023-09-10 18:22:45,647 DEBUG [main] c.m.m.TransformationServiceDecorator.onLoad(55): Loaded service mixin
+2023-09-10 18:22:45,647 DEBUG [main] c.m.m.TransformationServiceDecorator.onLoad(52): Loading service fml
+2023-09-10 18:22:45,649 DEBUG [main] n.m.f.l.LauncherVersion.<clinit>(21): Found FMLLauncher version 1.0
+2023-09-10 18:22:45,649 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(60): FML 1.0 loading
+2023-09-10 18:22:45,649 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(62): FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+2023-09-10 18:22:45,650 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(74): FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+2023-09-10 18:22:45,650 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(86): FML found EventBus version : 6.0.5+0+master.c510e2cc
+2023-09-10 18:22:45,651 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(96): Found Runtime Dist Cleaner
+2023-09-10 18:22:45,653 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(110): FML found CoreMod version : 5.0.1+15+master.dc5a2922
+2023-09-10 18:22:45,653 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(113): Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+2023-09-10 18:22:45,653 DEBUG [main] n.m.f.l.FMLLoader.onInitialLoad(114): Found ForgeSPI package specification 5
+2023-09-10 18:22:45,654 DEBUG [main] c.m.m.TransformationServiceDecorator.onLoad(55): Loaded service fml
+2023-09-10 18:22:45,655 DEBUG [main] c.m.m.TransformationServicesHandler.processArguments(66): Configuring option handling for services
+2023-09-10 18:22:45,665 DEBUG [main] c.m.m.TransformationServicesHandler.initialiseTransformationServices(90): Transformation services initializing
+2023-09-10 18:22:45,666 DEBUG [main] c.m.m.TransformationServiceDecorator.onInitialize(67): Initializing transformation service mixin
+2023-09-10 18:22:45,685 DEBUG [main] mixin.debug(67): MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@158a3b2e
+2023-09-10 18:22:45,710 INFO  [main] mixin.info(97): SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/F:/Minecraft%20Server/MOHIST%20SERVER%201.20/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2396!/ Service=ModLauncher Env=SERVER
+2023-09-10 18:22:45,715 DEBUG [main] mixin.debug(67): Initialising Mixin Platform Manager
+2023-09-10 18:22:45,715 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2023-09-10 18:22:45,717 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2023-09-10 18:22:45,718 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2023-09-10 18:22:45,719 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2023-09-10 18:22:45,720 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2023-09-10 18:22:45,723 DEBUG [main] c.m.m.TransformationServiceDecorator.onInitialize(69): Initialized transformation service mixin
+2023-09-10 18:22:45,724 DEBUG [main] c.m.m.TransformationServiceDecorator.onInitialize(67): Initializing transformation service fml
+2023-09-10 18:22:45,724 DEBUG [main] n.m.f.l.FMLServiceProvider.initialize(62): Setting up basic FML game directories
+2023-09-10 18:22:45,725 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path GAMEDIR is F:\Minecraft Server\MOHIST SERVER 1.20
+2023-09-10 18:22:45,725 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path MODSDIR is F:\Minecraft Server\MOHIST SERVER 1.20\mods
+2023-09-10 18:22:45,725 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path CONFIGDIR is F:\Minecraft Server\MOHIST SERVER 1.20\config
+2023-09-10 18:22:45,726 DEBUG [main] n.m.f.l.FMLPaths.loadAbsolutePaths(72): Path FMLCONFIG is F:\Minecraft Server\MOHIST SERVER 1.20\config\fml.toml
+2023-09-10 18:22:45,726 DEBUG [main] n.m.f.l.FMLServiceProvider.initialize(64): Loading configuration
+2023-09-10 18:22:45,731 DEBUG [main] n.m.f.l.FMLServiceProvider.initialize(66): Preparing ModFile
+2023-09-10 18:22:45,735 DEBUG [main] n.m.f.l.FMLServiceProvider.initialize(77): Preparing launch handler
+2023-09-10 18:22:45,737 DEBUG [main] n.m.f.l.FMLLoader.setupLaunchHandler(134): Using forgeserver as launch service
+2023-09-10 18:22:45,757 DEBUG [main] n.m.f.l.FMLLoader.setupLaunchHandler(156): Received command line version data  : VersionInfo[forgeVersion=47.1.70, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+2023-09-10 18:22:45,760 DEBUG [main] c.m.m.TransformationServiceDecorator.onInitialize(69): Initialized transformation service fml
+2023-09-10 18:22:45,761 DEBUG [main] c.m.m.NameMappingServiceHandler.bindNamingServices(53): Current naming domain is 'srg'
+2023-09-10 18:22:45,762 DEBUG [main] c.m.m.NameMappingServiceHandler.bindNamingServices(57): Identified name mapping providers {}
+2023-09-10 18:22:45,762 DEBUG [main] c.m.m.TransformationServicesHandler.runScanningTransformationServices(96): Transformation services begin scanning
+2023-09-10 18:22:45,763 DEBUG [main] c.m.m.TransformationServiceDecorator.runScan(111): Beginning scan trigger - transformation service mixin
+2023-09-10 18:22:45,763 DEBUG [main] c.m.m.TransformationServiceDecorator.runScan(113): End scan trigger - transformation service mixin
+2023-09-10 18:22:45,764 DEBUG [main] c.m.m.TransformationServiceDecorator.runScan(111): Beginning scan trigger - transformation service fml
+2023-09-10 18:22:45,764 DEBUG [main] n.m.f.l.FMLServiceProvider.beginScanning(85): Initiating mod scan
+2023-09-10 18:22:45,780 DEBUG [main] n.m.f.l.m.ModListHandler.processModLists(54): Found mod coordinates from lists: []
+2023-09-10 18:22:45,783 DEBUG [main] n.m.f.l.m.ModDiscoverer.<init>(52): Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+2023-09-10 18:22:45,784 DEBUG [main] n.m.f.l.m.ModDiscoverer.<init>(58): Found Dependency Locators : (JarInJar:null)
+2023-09-10 18:22:45,800 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\mods\carryon-forge-1.20.1-2.1.0.1.jar
+2023-09-10 18:22:45,881 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file carryon-forge-1.20.1-2.1.0.1.jar with {carryon} mods - versions {2.1.0.1}
+2023-09-10 18:22:46,154 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+2023-09-10 18:22:46,169 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\fmlcore\1.20.1-47.1.70\fmlcore-1.20.1-47.1.70.jar
+2023-09-10 18:22:46,230 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.1.70\javafmllanguage-1.20.1-47.1.70.jar
+2023-09-10 18:22:46,243 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.1.70\lowcodelanguage-1.20.1-47.1.70.jar
+2023-09-10 18:22:46,254 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\mclanguage\1.20.1-47.1.70\mclanguage-1.20.1-47.1.70.jar
+2023-09-10 18:22:46,313 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\forge\1.20.1-47.1.70\forge-1.20.1-47.1.70-universal.jar
+2023-09-10 18:22:46,325 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file forge-1.20.1-47.1.70-universal.jar with {forge,mohist} mods - versions {47.1.70,1.20.1}
+2023-09-10 18:22:46,336 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+2023-09-10 18:22:46,337 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from forge-1.20.1-47.1.70-universal.jar, it does not contain dependency information.
+2023-09-10 18:22:46,337 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.20.1-47.1.70.jar, it does not contain dependency information.
+2023-09-10 18:22:46,337 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.20.1-47.1.70.jar, it does not contain dependency information.
+2023-09-10 18:22:46,337 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.20.1-47.1.70.jar, it does not contain dependency information.
+2023-09-10 18:22:46,337 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.20.1-47.1.70.jar, it does not contain dependency information.
+2023-09-10 18:22:46,402 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate 
+2023-09-10 18:22:46,403 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file mixinextras-forge-0.2.0-beta.6.jar with {mixinextras} mods - versions {0.2.0-beta.6}
+2023-09-10 18:22:46,431 DEBUG [main] n.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29): Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.2.0-beta.6.jar, it does not contain dependency information.
+2023-09-10 18:22:46,461 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate 
+2023-09-10 18:22:46,462 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file mixinextras-forge-0.2.0-beta.6.jar with {mixinextras} mods - versions {0.2.0-beta.6}
+2023-09-10 18:22:46,464 INFO  [main] n.m.f.l.m.JarInJarDependencyLocator.scanMods(57): Found 2 dependencies adding them to mods collection
+2023-09-10 18:22:46,466 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+2023-09-10 18:22:46,469 DEBUG [main] n.m.f.l.m.ModFile.identifyMods(113): Loading mod file F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+2023-09-10 18:22:46,470 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\mods\carryon-forge-1.20.1-2.1.0.1.jar
+2023-09-10 18:22:46,471 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file carryon-forge-1.20.1-2.1.0.1.jar with {carryon} mods - versions {2.1.0.1}
+2023-09-10 18:22:46,471 DEBUG [main] n.m.f.l.m.ModFile.identifyMods(113): Loading mod file F:\Minecraft Server\MOHIST SERVER 1.20\mods\carryon-forge-1.20.1-2.1.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+2023-09-10 18:22:46,472 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\forge\1.20.1-47.1.70\forge-1.20.1-47.1.70-universal.jar
+2023-09-10 18:22:46,472 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file forge-1.20.1-47.1.70-universal.jar with {forge,mohist} mods - versions {47.1.70,1.20.1}
+2023-09-10 18:22:46,472 DEBUG [main] n.m.f.l.m.ModFile.identifyMods(113): Loading mod file F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\forge\1.20.1-47.1.70\forge-1.20.1-47.1.70-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+2023-09-10 18:22:46,476 DEBUG [main] n.m.f.l.m.ModFileParser.lambda$getCoreMods$0(66): Found coremod field_to_method with Javascript path coremods/field_to_method.js
+2023-09-10 18:22:46,477 DEBUG [main] n.m.f.l.m.ModFileParser.lambda$getCoreMods$0(66): Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+2023-09-10 18:22:46,477 DEBUG [main] n.m.f.l.m.ModFileParser.lambda$getCoreMods$0(66): Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+2023-09-10 18:22:46,477 DEBUG [main] n.m.f.l.m.ModFileParser.lambda$getCoreMods$0(66): Found coremod method_redirector with Javascript path coremods/method_redirector.js
+2023-09-10 18:22:46,477 DEBUG [main] n.m.f.l.m.ModFile.lambda$identifyMods$1(115): Found coremod coremods/field_to_method.js
+2023-09-10 18:22:46,477 DEBUG [main] n.m.f.l.m.ModFile.lambda$identifyMods$1(115): Found coremod coremods/field_to_instanceof.js
+2023-09-10 18:22:46,478 DEBUG [main] n.m.f.l.m.ModFile.lambda$identifyMods$1(115): Found coremod coremods/add_bouncer_method.js
+2023-09-10 18:22:46,478 DEBUG [main] n.m.f.l.m.ModFile.lambda$identifyMods$1(115): Found coremod coremods/method_redirector.js
+2023-09-10 18:22:46,478 DEBUG [main] n.m.f.l.m.ModFileParser.modsTomlParser(36): Considering mod file candidate 
+2023-09-10 18:22:46,479 DEBUG [main] n.m.f.l.m.ModFileInfo.<init>(89): Found valid mod file mixinextras-forge-0.2.0-beta.6.jar with {mixinextras} mods - versions {0.2.0-beta.6}
+2023-09-10 18:22:46,493 DEBUG [main] n.m.f.l.m.ModFile.identifyMods(113): Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+2023-09-10 18:22:46,493 DEBUG [main] n.m.f.l.m.ModFile.identifyMods(113): Loading mod file  with languages []
+2023-09-10 18:22:46,495 DEBUG [main] c.m.m.TransformationServiceDecorator.runScan(113): End scan trigger - transformation service fml
+2023-09-10 18:22:46,506 DEBUG [main] n.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84): Found 3 language providers
+2023-09-10 18:22:46,507 DEBUG [main] n.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$3(100): Found language provider minecraft, version 1.0
+2023-09-10 18:22:46,507 DEBUG [main] n.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$3(100): Found language provider lowcodefml, version 47
+2023-09-10 18:22:46,507 DEBUG [main] n.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$3(100): Found language provider javafml, version 47
+2023-09-10 18:22:46,514 DEBUG [main] n.m.f.l.ModSorter.detectSystemMods(172): Configured system mods: [minecraft, forge]
+2023-09-10 18:22:46,514 DEBUG [main] n.m.f.l.ModSorter.detectSystemMods(178): Found system mod: minecraft
+2023-09-10 18:22:46,514 DEBUG [main] n.m.f.l.ModSorter.detectSystemMods(178): Found system mod: forge
+2023-09-10 18:22:46,517 DEBUG [main] n.m.f.l.ModSorter.verifyDependencyVersions(204): Found 2 mod requirements (2 mandatory, 0 optional)
+2023-09-10 18:22:46,518 DEBUG [main] n.m.f.l.ModSorter.verifyDependencyVersions(209): Found 0 mod requirements missing (0 mandatory, 0 optional)
+2023-09-10 18:22:46,982 DEBUG [main] c.m.m.TransformationServicesHandler.initialiseServiceTransformers(84): Transformation services loading transformers
+2023-09-10 18:22:46,983 DEBUG [main] c.m.m.TransformationServiceDecorator.gatherTransformers(73): Initializing transformers for transformation service mixin
+2023-09-10 18:22:46,984 DEBUG [main] c.m.m.TransformationServiceDecorator.gatherTransformers(103): Initialized transformers for transformation service mixin
+2023-09-10 18:22:46,984 DEBUG [main] c.m.m.TransformationServiceDecorator.gatherTransformers(73): Initializing transformers for transformation service fml
+2023-09-10 18:22:46,984 DEBUG [main] n.m.f.l.FMLServiceProvider.transformers(132): Loading coremod transformers
+2023-09-10 18:22:46,985 DEBUG [main] n.m.c.CoreModEngine.initialize(74): Loading CoreMod from coremods/field_to_method.js
+2023-09-10 18:22:47,200 DEBUG [main] n.m.c.CoreModEngine.initialize(79): CoreMod loaded successfully
+2023-09-10 18:22:47,200 DEBUG [main] n.m.c.CoreModEngine.initialize(74): Loading CoreMod from coremods/field_to_instanceof.js
+2023-09-10 18:22:47,282 DEBUG [main] n.m.c.CoreModEngine.initialize(79): CoreMod loaded successfully
+2023-09-10 18:22:47,282 DEBUG [main] n.m.c.CoreModEngine.initialize(74): Loading CoreMod from coremods/add_bouncer_method.js
+2023-09-10 18:22:47,347 DEBUG [main] n.m.c.CoreModEngine.initialize(79): CoreMod loaded successfully
+2023-09-10 18:22:47,347 DEBUG [main] n.m.c.CoreModEngine.initialize(74): Loading CoreMod from coremods/method_redirector.js
+2023-09-10 18:22:47,460 DEBUG [main] n.m.c.CoreModEngine.initialize(79): CoreMod loaded successfully
+2023-09-10 18:22:47,489 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1c297897 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+2023-09-10 18:22:47,499 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@491cafec to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+2023-09-10 18:22:47,499 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@cbd40c1 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+2023-09-10 18:22:47,499 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4fa86cb8 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+2023-09-10 18:22:47,500 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@54c60202 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+2023-09-10 18:22:47,500 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7889b4b9 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+2023-09-10 18:22:47,500 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1e545821 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+2023-09-10 18:22:47,500 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@12952aff to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+2023-09-10 18:22:47,500 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@76a7fcbd to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+2023-09-10 18:22:47,501 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+2023-09-10 18:22:47,502 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+2023-09-10 18:22:47,503 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+2023-09-10 18:22:47,503 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+2023-09-10 18:22:47,503 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+2023-09-10 18:22:47,503 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+2023-09-10 18:22:47,503 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformStore.addTransformer(64): Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@433ea2ac to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+2023-09-10 18:22:47,504 DEBUG [main] c.m.m.TransformationServiceDecorator.gatherTransformers(103): Initialized transformers for transformation service fml
+2023-09-10 18:22:48,350 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2023-09-10 18:22:48,351 DEBUG [main] mixin.debug(67): Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2023-09-10 18:22:48,351 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container SecureJarResource(minecraft)
+2023-09-10 18:22:48,351 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+2023-09-10 18:22:48,352 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+2023-09-10 18:22:48,352 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+2023-09-10 18:22:48,352 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+2023-09-10 18:22:48,352 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2023-09-10 18:22:48,353 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container SecureJarResource(carryon)
+2023-09-10 18:22:48,353 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(carryon)
+2023-09-10 18:22:48,353 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container SecureJarResource(carryon)
+2023-09-10 18:22:48,353 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for SecureJarResource(carryon)
+2023-09-10 18:22:48,353 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container SecureJarResource(carryon)
+2023-09-10 18:22:48,354 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(carryon)]
+2023-09-10 18:22:48,354 DEBUG [main] mixin.debug(67): Registering mixin config: carryon.mixins.json
+2023-09-10 18:22:48,404 DEBUG [main] mixin.log(107): Compatibility level JAVA_17 specified by carryon.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+2023-09-10 18:22:48,416 INFO  [main] mixin.info(97): Compatibility level set to JAVA_17
+2023-09-10 18:22:48,418 DEBUG [main] mixin.debug(67): Registering mixin config: carryon.forge.mixins.json
+2023-09-10 18:22:48,421 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container SecureJarResource(forge)
+2023-09-10 18:22:48,422 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+2023-09-10 18:22:48,422 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+2023-09-10 18:22:48,422 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+2023-09-10 18:22:48,422 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+2023-09-10 18:22:48,423 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2023-09-10 18:22:48,423 DEBUG [main] mixin.debug(67): Registering mixin config: mohist.mixins.json
+2023-09-10 18:22:48,442 DEBUG [main] mixin.log(107): Compatibility level JAVA_8 specified by mohist.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+2023-09-10 18:22:48,443 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container SecureJarResource(mixinextras)
+2023-09-10 18:22:48,443 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras)
+2023-09-10 18:22:48,443 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras)
+2023-09-10 18:22:48,443 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras)
+2023-09-10 18:22:48,444 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras)
+2023-09-10 18:22:48,444 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+2023-09-10 18:22:48,444 DEBUG [main] mixin.debug(67): Registering mixin config: mixinextras.init.mixins.json
+2023-09-10 18:22:48,446 DEBUG [main] mixin.debug(67): Adding mixin platform agents for container SecureJarResource(MixinExtras.beta._6)
+2023-09-10 18:22:48,447 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(MixinExtras.beta._6)
+2023-09-10 18:22:48,447 DEBUG [main] mixin.debug(67): MixinPlatformAgentMinecraftForge rejected container SecureJarResource(MixinExtras.beta._6)
+2023-09-10 18:22:48,447 DEBUG [main] mixin.debug(67): Instancing new MixinPlatformAgentDefault for SecureJarResource(MixinExtras.beta._6)
+2023-09-10 18:22:48,447 DEBUG [main] mixin.debug(67): MixinPlatformAgentDefault accepted container SecureJarResource(MixinExtras.beta._6)
+2023-09-10 18:22:48,448 DEBUG [main] mixin.debug(67): Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras.beta._6)]
+2023-09-10 18:22:48,448 DEBUG [main] mixin.debug(67): inject() running with 6 agents
+2023-09-10 18:22:48,448 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2023-09-10 18:22:48,449 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2023-09-10 18:22:48,449 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(carryon)]
+2023-09-10 18:22:48,449 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2023-09-10 18:22:48,449 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+2023-09-10 18:22:48,449 DEBUG [main] mixin.debug(67): Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras.beta._6)]
+2023-09-10 18:22:48,452 INFO  [main] c.m.m.LaunchServiceHandler.launch(52): Launching target 'forgeserver' with arguments [jogui]
+2023-09-10 18:22:48,533 DEBUG [main] mixin.debug(67): Error cleaning class output directory: .mixin.out
+2023-09-10 18:22:48,535 DEBUG [main] mixin.log(107): Preparing mixins for MixinEnvironment[DEFAULT]
+2023-09-10 18:22:48,536 DEBUG [main] mixin.log(107): Selecting config carryon.mixins.json
+2023-09-10 18:22:48,574 DEBUG [main] mixin.log(107): Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+2023-09-10 18:22:48,577 DEBUG [main] mixin.log(107): Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+2023-09-10 18:22:48,579 DEBUG [main] mixin.log(107): Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+2023-09-10 18:22:48,580 DEBUG [main] mixin.log(107): Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+2023-09-10 18:22:48,582 DEBUG [main] mixin.log(107): Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+2023-09-10 18:22:48,586 DEBUG [main] mixin.log(107): Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+2023-09-10 18:22:48,596 DEBUG [main] mixin.log(107): Registering new injector for @ModifyExpressionValue with com.llamalad7.mixinextras.injector.ModifyExpressionValueInjectionInfo
+2023-09-10 18:22:48,605 DEBUG [main] mixin.log(107): Registering new injector for @ModifyReceiver with com.llamalad7.mixinextras.injector.ModifyReceiverInjectionInfo
+2023-09-10 18:22:48,611 DEBUG [main] mixin.log(107): Registering new injector for @ModifyReturnValue with com.llamalad7.mixinextras.injector.ModifyReturnValueInjectionInfo
+2023-09-10 18:22:48,622 DEBUG [main] mixin.log(107): Registering new injector for @WrapOperation with com.llamalad7.mixinextras.injector.wrapoperation.WrapOperationInjectionInfo
+2023-09-10 18:22:48,630 DEBUG [main] mixin.log(107): Registering new injector for @WrapWithCondition with com.llamalad7.mixinextras.injector.WrapWithConditionInjectionInfo
+2023-09-10 18:22:48,640 DEBUG [main] mixin.log(107): Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+2023-09-10 18:22:48,681 DEBUG [main] mixin.log(107): Selecting config carryon.forge.mixins.json
+2023-09-10 18:22:48,683 DEBUG [main] mixin.log(107): Selecting config mohist.mixins.json
+2023-09-10 18:22:48,684 DEBUG [main] mixin.log(107): Selecting config mixinextras.init.mixins.json
+2023-09-10 18:22:48,687 DEBUG [main] mixin.log(107): Preparing carryon.mixins.json (5)
+2023-09-10 18:22:48,876 DEBUG [main] mixin.log(107): Preparing carryon.forge.mixins.json (0)
+2023-09-10 18:22:48,877 DEBUG [main] mixin.log(107): Preparing mohist.mixins.json (1)
+2023-09-10 18:22:48,920 DEBUG [main] mixin.log(107): Preparing mixinextras.init.mixins.json (0)
+2023-09-10 18:22:48,960 DEBUG [main] mixin.log(107): Prepared 4 mixins in 0,422 sec (105,5ms avg) (0ms load, 0ms transform, 0ms plugin)
+2023-09-10 18:22:49,086 DEBUG [main] i.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63): Using SLF4J as the default logging framework
+2023-09-10 18:22:49,095 DEBUG [main] i.n.u.ResourceLeakDetector.<clinit>(129): -Dio.netty.leakDetection.level: simple
+2023-09-10 18:22:49,096 DEBUG [main] i.n.u.ResourceLeakDetector.<clinit>(130): -Dio.netty.leakDetection.targetRecords: 4
+2023-09-10 18:22:49,413 DEBUG [main] mixin.log(107): Mixing bukkit.MixinCraftServer from mohist.mixins.json into org.bukkit.craftbukkit.v1_20_R1.CraftServer
+2023-09-10 18:22:49,415 DEBUG [main] mixin.log(107): mohist.mixins.json:bukkit.MixinCraftServer: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+2023-09-10 18:22:49,704 DEBUG [main] n.m.v.f.ForgeVersion.<clinit>(28): Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from cpw.mods.modlauncher.TransformingClassLoader@552fee7a
+2023-09-10 18:22:49,705 DEBUG [main] n.m.v.f.ForgeVersion.<clinit>(40): Found Forge version 47.1.70
+2023-09-10 18:22:49,705 DEBUG [main] n.m.v.f.ForgeVersion.<clinit>(41): Found Forge spec 0.0
+2023-09-10 18:22:49,705 DEBUG [main] n.m.v.f.ForgeVersion.<clinit>(42): Found Forge group net.minecraftforge
+2023-09-10 18:22:49,800 DEBUG [main] o.u.FileUtil.readPropertiesFromClassLoader(387): No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@552fee7a
+2023-09-10 18:22:50,156 DEBUG [main] o.u.FileUtil.readPropertiesFromClassLoader(387): No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@552fee7a
+2023-09-10 18:22:50,273 WARN  [main] o.d.w.p.PerfmonDisabled.isDisabled(52): Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+2023-09-10 18:22:51,253 WARN  [main] o.u.p.w.PerfDataUtil.addCounter(233): Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+2023-09-10 18:22:51,253 WARN  [main] o.u.p.w.PerfCounterQueryHandler.addCounterToQuery(54): Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+2023-09-10 18:22:51,255 WARN  [main] o.u.p.w.PerfCounterQuery.queryValues(77): Disabling further attempts to query Paging File.
+2023-09-10 18:22:56,603 WARN  [main] o.u.p.w.WmiQueryHandler.queryWMI(141): COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+2023-09-10 18:22:56,752 DEBUG [main] mixin.log(107): Mixing EntityMixin from carryon.mixins.json into net.minecraft.world.entity.Entity
+2023-09-10 18:22:56,945 DEBUG [main] mixin.log(107): Mixing PlayerMixin from carryon.mixins.json into net.minecraft.world.entity.player.Player
+2023-09-10 18:22:56,959 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/EntityType
+2023-09-10 18:22:57,229 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/EntityType
+2023-09-10 18:22:57,571 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/block/LiquidBlock
+2023-09-10 18:22:57,603 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/block/StairBlock
+2023-09-10 18:22:57,662 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/block/FlowerPotBlock
+2023-09-10 18:22:58,543 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/item/ItemStack
+2023-09-10 18:22:59,275 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/animal/frog/Tadpole
+2023-09-10 18:22:59,343 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/item/BucketItem
+2023-09-10 18:23:00,304 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/monster/Spider
+2023-09-10 18:23:00,384 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/monster/Zombie
+2023-09-10 18:23:00,547 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/monster/ZombieVillager
+2023-09-10 18:23:00,613 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+2023-09-10 18:23:00,856 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+2023-09-10 18:23:00,888 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/monster/Strider
+2023-09-10 18:23:01,040 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/npc/Villager
+2023-09-10 18:23:01,167 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/effect/MobEffectInstance
+2023-09-10 18:23:01,379 DEBUG [main] mixin.log(107): Mixing InventoryMixin from carryon.mixins.json into net.minecraft.world.entity.player.Inventory
+2023-09-10 18:23:01,421 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/item/ItemStack
+2023-09-10 18:23:01,840 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/Structure
+2023-09-10 18:23:01,895 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+2023-09-10 18:23:01,915 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+2023-09-10 18:23:01,924 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+2023-09-10 18:23:01,943 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+2023-09-10 18:23:02,082 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/biome/Biome
+2023-09-10 18:23:02,448 DEBUG [main] n.m.c.ForgeI18n.loadLanguageData(83): Loading I18N data entries: 6430
+2023-09-10 18:23:02,541 DEBUG [main] n.m.f.ModWorkManager.parallelExecutor(98): Using 16 threads for parallel mod-loading
+2023-09-10 18:23:02,575 DEBUG [main] n.m.f.j.FMLJavaModLanguageProvider.loadMod(60): Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@552fee7a - got cpw.mods.cl.ModuleClassLoader@5ea4300e
+2023-09-10 18:23:02,578 DEBUG [main] n.m.f.j.FMLModContainer.<init>(38): Creating FMLModContainer instance for tschipp.carryon.CarryOnForge
+2023-09-10 18:23:02,600 DEBUG [main] n.m.f.j.FMLJavaModLanguageProvider.loadMod(60): Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@552fee7a - got cpw.mods.cl.ModuleClassLoader@5ea4300e
+2023-09-10 18:23:02,600 DEBUG [main] n.m.f.j.FMLModContainer.<init>(38): Creating FMLModContainer instance for com.llamalad7.mixinextras.platform.forge.MixinExtrasMod
+2023-09-10 18:23:02,601 DEBUG [main] n.m.f.j.FMLJavaModLanguageProvider.loadMod(60): Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@552fee7a - got cpw.mods.cl.ModuleClassLoader@5ea4300e
+2023-09-10 18:23:02,601 DEBUG [main] n.m.f.j.FMLModContainer.<init>(38): Creating FMLModContainer instance for com.mohistmc.MohistMC
+2023-09-10 18:23:02,601 DEBUG [main] n.m.f.j.FMLJavaModLanguageProvider.loadMod(60): Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@552fee7a - got cpw.mods.cl.ModuleClassLoader@5ea4300e
+2023-09-10 18:23:02,601 DEBUG [main] n.m.f.j.FMLModContainer.<init>(38): Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+2023-09-10 18:23:02,633 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.inject(40): Attempting to inject @EventBusSubscriber classes into the eventbus for mixinextras
+2023-09-10 18:23:02,663 DEBUG [modloading-worker-0] Carry On.load(20): Loaded tschipp.carryon.platform.ForgePlatformHelper@2c9f9c90 for service interface tschipp.carryon.platform.services.IPlatformHelper
+2023-09-10 18:23:02,665 DEBUG [modloading-worker-0] Carry On.load(20): Loaded tschipp.carryon.platform.ForgeGamestagesHelper@fb08fe3 for service interface tschipp.carryon.platform.services.IGamestagePlatformHelper
+2023-09-10 18:23:02,676 DEBUG [modloading-worker-0] n.m.v.m.MCPVersion.<clinit>(20): MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@552fee7a
+2023-09-10 18:23:02,676 DEBUG [modloading-worker-0] n.m.v.m.MCPVersion.<clinit>(27): Found MC version information 1.20.1
+2023-09-10 18:23:02,676 DEBUG [modloading-worker-0] n.m.v.m.MCPVersion.<clinit>(28): Found MCP version information 20230612.114412
+2023-09-10 18:23:02,676 INFO  [modloading-worker-0] n.m.c.ForgeMod.<init>(419): Forge mod loading, version 47.1.70, for MC 1.20.1 with MCP 20230612.114412
+2023-09-10 18:23:02,682 INFO  [modloading-worker-0] n.m.c.MinecraftForge.initialize(41): MinecraftForge v47.1.70 Initialized
+2023-09-10 18:23:02,725 DEBUG [modloading-worker-0] n.m.f.c.ConfigTracker.trackConfig(45): Config file carryon-client.toml for carryon tracking
+2023-09-10 18:23:02,726 DEBUG [modloading-worker-0] n.m.f.c.ConfigTracker.trackConfig(45): Config file carryon-common.toml for carryon tracking
+2023-09-10 18:23:02,726 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.inject(40): Attempting to inject @EventBusSubscriber classes into the eventbus for carryon
+2023-09-10 18:23:02,728 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60): Auto-subscribing tschipp.carryon.CarryOnForge to MOD
+2023-09-10 18:23:02,729 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60): Auto-subscribing tschipp.carryon.events.CommonEvents to FORGE
+2023-09-10 18:23:02,778 INFO  [modloading-worker-0] c.m.MohistMC.<init>(39): Mohist mod loading.....
+2023-09-10 18:23:02,789 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60): Auto-subscribing tschipp.carryon.events.ModBusEvents to MOD
+2023-09-10 18:23:02,831 INFO  [modloading-worker-0] c.m.MohistMC.init(39): EventDispatcherRegistry initialized
+2023-09-10 18:23:02,833 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.inject(40): Attempting to inject @EventBusSubscriber classes into the eventbus for mohist
+2023-09-10 18:23:02,846 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.explicitNoUnsafeCause0(496): -Dio.netty.noUnsafe: false
+2023-09-10 18:23:02,846 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.javaVersion0(1000): Java version: 20
+2023-09-10 18:23:02,847 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(137): sun.misc.Unsafe.theUnsafe: available
+2023-09-10 18:23:02,848 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(161): sun.misc.Unsafe.copyMemory: available
+2023-09-10 18:23:02,848 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(193): sun.misc.Unsafe.storeFence: available
+2023-09-10 18:23:02,848 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(236): java.nio.Buffer.address: available
+2023-09-10 18:23:02,849 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(317): direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.1.70-universal.jar%23168!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.1.70-universal.jar%23168!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.70.jar%23165!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.70.jar%23164!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+2023-09-10 18:23:02,850 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(385): java.nio.Bits.unaligned: available, true
+2023-09-10 18:23:02,851 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(449): jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:709) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23149!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.1.70-universal.jar%23168!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.1.70-universal.jar%23168!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.70.jar%23165!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.70.jar%23164!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+2023-09-10 18:23:02,852 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent0.<clinit>(482): java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-09-10 18:23:02,852 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.unsafeUnavailabilityCause0(1159): sun.misc.Unsafe: available
+2023-09-10 18:23:02,853 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.estimateMaxDirectMemory(1270): maxDirectMemory: 2306867200 bytes (maybe)
+2023-09-10 18:23:02,854 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.tmpdir0(1289): -Dio.netty.tmpdir: C:\Users\cedse\AppData\Local\Temp (java.io.tmpdir)
+2023-09-10 18:23:02,854 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.bitMode0(1368): -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-09-10 18:23:02,855 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.isWindows0(1119): Platform: Windows
+2023-09-10 18:23:02,855 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.<clinit>(178): -Dio.netty.maxDirectMemory: -1 bytes
+2023-09-10 18:23:02,855 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.<clinit>(185): -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-09-10 18:23:02,856 DEBUG [modloading-worker-0] i.n.u.i.CleanerJava9.<clinit>(71): java.nio.ByteBuffer.cleaner(): available
+2023-09-10 18:23:02,857 DEBUG [modloading-worker-0] i.n.u.i.PlatformDependent.<clinit>(205): -Dio.netty.noPreferDirect: false
+2023-09-10 18:23:02,883 DEBUG [modloading-worker-0] n.m.c.ForgeMod.<init>(429): Loading Network data for FML net version: FML3
+2023-09-10 18:23:02,903 DEBUG [modloading-worker-0] n.m.f.c.ConfigTracker.trackConfig(45): Config file forge-client.toml for forge tracking
+2023-09-10 18:23:02,903 DEBUG [modloading-worker-0] n.m.f.c.ConfigTracker.trackConfig(45): Config file forge-server.toml for forge tracking
+2023-09-10 18:23:02,903 DEBUG [modloading-worker-0] n.m.f.ModLoadingContext.registerConfig(57): Attempted to register an empty config for type COMMON on mod forge
+2023-09-10 18:23:02,919 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.inject(40): Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+2023-09-10 18:23:02,919 DEBUG [modloading-worker-0] n.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60): Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+2023-09-10 18:23:02,992 DEBUG [main] n.m.c.c.CapabilityManager.injectCapabilities(76): Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+2023-09-10 18:23:02,994 DEBUG [main] n.m.c.c.CapabilityManager.injectCapabilities(76): Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+2023-09-10 18:23:02,994 DEBUG [main] n.m.c.c.CapabilityManager.injectCapabilities(76): Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+2023-09-10 18:23:02,994 DEBUG [main] n.m.c.c.CapabilityManager.injectCapabilities(76): Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+2023-09-10 18:23:03,240 DEBUG [main] n.m.f.c.ConfigTracker.loadConfigs(49): Loading configs type COMMON
+2023-09-10 18:23:03,242 DEBUG [main] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40): Built TOML config for F:\Minecraft Server\MOHIST SERVER 1.20\config\carryon-common.toml
+2023-09-10 18:23:03,285 DEBUG [main] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49): Loaded TOML config file F:\Minecraft Server\MOHIST SERVER 1.20\config\carryon-common.toml
+2023-09-10 18:23:03,313 DEBUG [main] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52): Watching TOML config file F:\Minecraft Server\MOHIST SERVER 1.20\config\carryon-common.toml for changes
+2023-09-10 18:23:03,351 DEBUG [Thread-1] n.m.f.c.ConfigFileTypeHandler.run(145): Config file carryon-common.toml changed, sending notifies
+2023-09-10 18:23:03,389 DEBUG [Thread-1] n.m.f.c.ConfigFileTypeHandler.run(145): Config file carryon-common.toml changed, sending notifies
+2023-09-10 18:23:03,408 DEBUG [Thread-1] n.m.f.c.ConfigFileTypeHandler.run(145): Config file carryon-common.toml changed, sending notifies
+2023-09-10 18:23:04,960 INFO  [main] c.m.a.y.YggdrasilAuthenticationService.<init>(56): Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2023-09-10 18:23:06,100 DEBUG [main] n.m.s.ServerLifecycleHooks.serverPackFinder(217): Generating PackInfo named mod:carryon for mod file F:\Minecraft Server\MOHIST SERVER 1.20\mods\carryon-forge-1.20.1-2.1.0.1.jar
+2023-09-10 18:23:06,101 DEBUG [main] n.m.s.ServerLifecycleHooks.serverPackFinder(217): Generating PackInfo named mod:mixinextras for mod file 
+2023-09-10 18:23:06,101 DEBUG [main] n.m.s.ServerLifecycleHooks.serverPackFinder(217): Generating PackInfo named mod:forge for mod file F:\Minecraft Server\MOHIST SERVER 1.20\libraries\net\minecraftforge\forge\1.20.1-47.1.70\forge-1.20.1-47.1.70-universal.jar
+2023-09-10 18:23:07,166 DEBUG [main] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/server/commands/SummonCommand
+2023-09-10 18:23:07,863 DEBUG [Worker-Main-8] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/raid/Raid
+2023-09-10 18:23:08,120 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(106): Loaded 7 recipes
+2023-09-10 18:23:08,243 INFO  [main] n.m.a.AdvancementList.m_139333_(90): Loaded 1271 advancements
+2023-09-10 18:23:08,814 DEBUG [main] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1269): Gathering id map for writing to world save world
+2023-09-10 18:23:08,826 DEBUG [main] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1275): ID Map collection complete world
+2023-09-10 18:23:08,939 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(145): Starting minecraft server version 1.20.1
+2023-09-10 18:23:08,940 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(150): Loading properties
+2023-09-10 18:23:08,942 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(166): Default game type: SURVIVAL
+2023-09-10 18:23:08,942 INFO  [Server thread] n.m.s.MinecraftServer.m_129793_(1348): Generating keypair
+2023-09-10 18:23:09,088 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(177): Starting Minecraft server on *:25565
+2023-09-10 18:23:09,119 DEBUG [Server thread] n.m.n.DualStackUtils.checkIPv6(87): Detected IPv4 address: "0.0.0.0"
+2023-09-10 18:23:09,202 INFO  [Server thread] n.m.s.n.ServerConnectionListener.m_9711_(84): Using default channel type
+2023-09-10 18:23:09,247 DEBUG [Server thread] i.n.c.MultithreadEventLoopGroup.<clinit>(44): -Dio.netty.eventLoopThreads: 32
+2023-09-10 18:23:09,269 DEBUG [Server thread] i.n.u.i.InternalThreadLocalMap.<clinit>(86): -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-09-10 18:23:09,269 DEBUG [Server thread] i.n.u.i.InternalThreadLocalMap.<clinit>(89): -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-09-10 18:23:09,278 DEBUG [Server thread] i.n.c.n.NioEventLoop.<clinit>(110): -Dio.netty.noKeySetOptimization: false
+2023-09-10 18:23:09,278 DEBUG [Server thread] i.n.c.n.NioEventLoop.<clinit>(111): -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-09-10 18:23:09,286 DEBUG [Server thread] i.n.u.i.PlatformDependent.<clinit>(1010): org.jctools-core.MpscChunkedArrayQueue: available
+2023-09-10 18:23:09,340 DEBUG [Server thread] i.n.c.DefaultChannelId.<clinit>(79): -Dio.netty.processId: 21292 (auto-detected)
+2023-09-10 18:23:09,342 DEBUG [Server thread] i.n.u.NetUtil.<clinit>(136): -Djava.net.preferIPv4Stack: true
+2023-09-10 18:23:09,342 DEBUG [Server thread] i.n.u.NetUtil.<clinit>(137): -Djava.net.preferIPv6Addresses: false
+2023-09-10 18:23:09,349 DEBUG [Server thread] i.n.u.NetUtilInitializations.determineLoopback(129): Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-09-10 18:23:09,352 DEBUG [Server thread] i.n.u.NetUtil.run(191): Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-09-10 18:23:09,360 DEBUG [Server thread] i.n.c.DefaultChannelId.<clinit>(101): -Dio.netty.machineId: 2a:32:6f:ff:fe:06:0a:6c (auto-detected)
+2023-09-10 18:23:09,397 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(157): -Dio.netty.allocator.numHeapArenas: 32
+2023-09-10 18:23:09,398 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(158): -Dio.netty.allocator.numDirectArenas: 32
+2023-09-10 18:23:09,398 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(160): -Dio.netty.allocator.pageSize: 8192
+2023-09-10 18:23:09,398 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(165): -Dio.netty.allocator.maxOrder: 9
+2023-09-10 18:23:09,398 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(169): -Dio.netty.allocator.chunkSize: 4194304
+2023-09-10 18:23:09,399 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(170): -Dio.netty.allocator.smallCacheSize: 256
+2023-09-10 18:23:09,399 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(171): -Dio.netty.allocator.normalCacheSize: 64
+2023-09-10 18:23:09,399 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(172): -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-09-10 18:23:09,399 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(173): -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-09-10 18:23:09,400 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(174): -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-09-10 18:23:09,400 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(175): -Dio.netty.allocator.useCacheForAllThreads: false
+2023-09-10 18:23:09,400 DEBUG [Server thread] i.n.b.PooledByteBufAllocator.<clinit>(176): -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-09-10 18:23:09,412 DEBUG [Server thread] i.n.b.ByteBufUtil.<clinit>(87): -Dio.netty.allocator.type: pooled
+2023-09-10 18:23:09,412 DEBUG [Server thread] i.n.b.ByteBufUtil.<clinit>(96): -Dio.netty.threadLocalDirectBufferSize: 0
+2023-09-10 18:23:09,412 DEBUG [Server thread] i.n.b.ByteBufUtil.<clinit>(99): -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-09-10 18:23:09,421 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(189): **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2023-09-10 18:23:09,422 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(190): The server will make no attempt to authenticate usernames. Beware.
+2023-09-10 18:23:09,425 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(191): While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2023-09-10 18:23:09,426 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(192): To change this, set "online-mode" to "true" in the server.properties file.
+2023-09-10 18:23:09,502 INFO  [Server thread] Minecraft.publish(37): This server is running Mohist version 1.20.1-359 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.1.44, NeoForge version 47.1.70)
+2023-09-10 18:23:09,698 INFO  [Server thread] Minecraft.publish(37): Debug logging is enabled
+2023-09-10 18:23:09,701 INFO  [Server thread] Minecraft.publish(37): Using 4 threads for Netty based IO
+2023-09-10 18:23:09,704 INFO  [Server thread] .playerSample(273): Server Ping Player Sample Count: 12
+2023-09-10 18:23:09,739 INFO  [Server thread] c.m.MohistMC.handler$zzd000$helloWorld(2460): Hello Plugins!
+2023-09-10 18:23:11,472 WARN  [Server thread] .<clinit>(258): Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+2023-09-10 18:23:14,705 WARN  [Server thread] Minecraft.publish(35): Legacy plugin HealthBar v1.8.3 does not specify an api-version.
+2023-09-10 18:23:14,993 DEBUG [Server thread] c.m.MohistMC.handleClass(57): Found new java/net/URLClassLoader/<init>([Ljava/net/URL;Ljava/lang/ClassLoader;)V call in drew6017/lr/main/LaggRemover onEnable()V
+2023-09-10 18:23:15,136 WARN  [Server thread] Minecraft.publish(35): Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+2023-09-10 18:23:15,189 WARN  [Server thread] Minecraft.publish(35): Legacy plugin LoginSecurity v3.1.1 does not specify an api-version.
+2023-09-10 18:23:15,253 INFO  [Server thread] c.j.t.TabLocation.publish(37): [TabLocation] Loading TabLocation v1.4.1
+2023-09-10 18:23:15,256 INFO  [Server thread] c.g.f.h.Main.publish(37): [HealthBar] Loading HealthBar v1.8.3
+2023-09-10 18:23:15,257 INFO  [Server thread] m.r.A.AntiXRay.publish(37): [AntiXRay] Loading AntiXRay v1.9.0
+2023-09-10 18:23:15,259 INFO  [Server thread] c.i.i.c.I.CopperItems.publish(37): [CopperItems] Loading CopperItems v1.0-SNAPSHOT
+2023-09-10 18:23:15,260 INFO  [Server thread] m.c.DeadChest.publish(37): [DeadChest] Loading DeadChest v4.16.0
+2023-09-10 18:23:15,298 INFO  [Server thread] Minecraft.publish(37): [DeadChest] Worldguard support disabled by user
+2023-09-10 18:23:15,300 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Loading Sleeper v1.4.4
+2023-09-10 18:23:15,302 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Loading LaggRemover v2.0.6
+2023-09-10 18:23:15,303 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Loading ProtocolLib v5.0.0
+2023-09-10 18:23:15,485 WARN  [Server thread] c.c.p.ProtocolLib.publish(35): [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+2023-09-10 18:23:15,866 DEBUG [Server thread] c.m.MohistMC.handleClass(66): Transforming classloader class com/comphenix/net/bytebuddy/utility/dispatcher/JavaDispatcher$DynamicClassLoader
+2023-09-10 18:23:15,867 DEBUG [Server thread] c.m.MohistMC.implementIntf(83): Implementing RemappingClassLoader for class com/comphenix/net/bytebuddy/utility/dispatcher/JavaDispatcher$DynamicClassLoader
+2023-09-10 18:23:17,746 DEBUG [Server thread] c.m.MohistMC.handleClass(66): Transforming classloader class com/comphenix/net/bytebuddy/dynamic/loading/InjectionClassLoader
+2023-09-10 18:23:17,746 DEBUG [Server thread] c.m.MohistMC.implementIntf(83): Implementing RemappingClassLoader for class com/comphenix/net/bytebuddy/dynamic/loading/InjectionClassLoader
+2023-09-10 18:23:17,786 DEBUG [Server thread] c.m.MohistMC.handleClass(57): Found new java/net/URLClassLoader/<init>([Ljava/net/URL;Ljava/lang/ClassLoader;)V call in com/comphenix/net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader$BootLoaderProxyCreationAction run()Ljava/lang/ClassLoader;
+2023-09-10 18:23:17,972 DEBUG [Server thread] c.m.MohistMC.handleClass(66): Transforming classloader class com/comphenix/net/bytebuddy/dynamic/loading/ByteArrayClassLoader
+2023-09-10 18:23:17,972 DEBUG [Server thread] c.m.MohistMC.implementIntf(83): Implementing RemappingClassLoader for class com/comphenix/net/bytebuddy/dynamic/loading/ByteArrayClassLoader
+2023-09-10 18:23:18,046 DEBUG [Server thread] c.m.MohistMC.scanMethod(129): Scanning java/lang/ClassLoader$ByteBuddyAccessor$V1
+2023-09-10 18:23:18,050 DEBUG [Server thread] c.m.MohistMC.scanMethod(155): Creating bridge handler java/lang/ClassLoader$ByteBuddyAccessor$V1/defineClass(Ljava/lang/ClassLoader;Ljava/lang/String;[BIILjava/security/ProtectionDomain;)Ljava/lang/Class; to java/lang/ClassLoader/defineClass(Ljava/lang/String;[BIILjava/security/ProtectionDomain;)Ljava/lang/Class;
+2023-09-10 18:23:18,388 INFO  [Server thread] n.i.o.Orebfuscator.publish(37): [Orebfuscator] Loading Orebfuscator v5.4.0
+2023-09-10 18:23:18,393 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Loading ScoreboardStats v0.10.6
+2023-09-10 18:23:18,395 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading LoginSecurity v3.1.1
+2023-09-10 18:23:18,399 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Enabling ProtocolLib v5.0.0
+2023-09-10 18:23:18,581 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Enabling Mohist v1.20.1
+2023-09-10 18:23:18,585 DEBUG [Server thread] n.m.f.c.ConfigTracker.loadConfigs(49): Loading configs type SERVER
+2023-09-10 18:23:18,586 DEBUG [Server thread] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40): Built TOML config for .\world\serverconfig\forge-server.toml
+2023-09-10 18:23:18,616 DEBUG [Server thread] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49): Loaded TOML config file .\world\serverconfig\forge-server.toml
+2023-09-10 18:23:18,617 DEBUG [Server thread] n.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52): Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+2023-09-10 18:23:18,618 DEBUG [Server thread] n.m.c.ForgeConfig.onLoad(191): Loaded forge config file forge-server.toml
+2023-09-10 18:23:18,665 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(219): Preparing level "world"
+2023-09-10 18:23:18,673 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+2023-09-10 18:23:18,678 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+2023-09-10 18:23:18,682 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/npc/CatSpawner
+2023-09-10 18:23:18,689 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/entity/ai/village/VillageSiege
+2023-09-10 18:23:19,881 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:overworld
+2023-09-10 18:23:21,150 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,168 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,170 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,246 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+2023-09-10 18:23:21,387 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,896 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:22,384 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:22,889 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:23,467 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 2%
+2023-09-10 18:23:24,119 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:24,386 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:24,890 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:25,390 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:25,885 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:26,390 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 5%
+2023-09-10 18:23:26,931 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 6%
+2023-09-10 18:23:27,397 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 14%
+2023-09-10 18:23:27,887 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 17%
+2023-09-10 18:23:28,388 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 22%
+2023-09-10 18:23:28,884 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 22%
+2023-09-10 18:23:29,399 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 27%
+2023-09-10 18:23:29,892 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 35%
+2023-09-10 18:23:30,389 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 39%
+2023-09-10 18:23:30,893 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 45%
+2023-09-10 18:23:31,388 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 58%
+2023-09-10 18:23:31,884 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 73%
+2023-09-10 18:23:32,389 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 84%
+2023-09-10 18:23:32,884 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 95%
+2023-09-10 18:23:33,136 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 13253 ms
+2023-09-10 18:23:33,195 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_nether
+2023-09-10 18:23:33,919 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:33,920 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:34,212 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:34,697 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:35,199 INFO  [Worker-Main-11] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:35,966 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:36,201 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 14%
+2023-09-10 18:23:36,697 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 30%
+2023-09-10 18:23:37,197 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 75%
+2023-09-10 18:23:37,293 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 4097 ms
+2023-09-10 18:23:37,296 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_end
+2023-09-10 18:23:38,003 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,005 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,298 INFO  [Worker-Main-8] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,800 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:39,318 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 10%
+2023-09-10 18:23:39,789 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 2492 ms
+2023-09-10 18:23:39,791 INFO  [Server thread] c.j.t.TabLocation.publish(37): [TabLocation] Enabling TabLocation v1.4.1
+2023-09-10 18:23:39,836 INFO  [Server thread] Minecraft.publish(37): ===================================
+2023-09-10 18:23:39,837 INFO  [Server thread] Minecraft.publish(37): Plugin has been enabled!
+2023-09-10 18:23:39,838 INFO  [Server thread] Minecraft.publish(37): You are using §aTabLocation,
+2023-09-10 18:23:39,839 INFO  [Server thread] Minecraft.publish(37): Version §61.4.1
+2023-09-10 18:23:39,840 INFO  [Server thread] Minecraft.publish(37): Java version §620.0.2
+2023-09-10 18:23:39,841 INFO  [Server thread] Minecraft.publish(37): Developed by §ajamesina
+2023-09-10 18:23:39,842 INFO  [Server thread] Minecraft.publish(37): ===================================
+2023-09-10 18:23:39,847 INFO  [Server thread] c.g.f.h.Main.publish(37): [HealthBar] Enabling HealthBar v1.8.3
+2023-09-10 18:23:40,087 INFO  [Server thread] m.r.A.AntiXRay.publish(37): [AntiXRay] Enabling AntiXRay v1.9.0
+2023-09-10 18:23:40,099 WARN  [Server thread] m.r.A.AntiXRay.publish(35): [AntiXRay] Configuration: There's no world named "world_nether".  Make sure that the worldnames in your config.yml are correct!
+2023-09-10 18:23:40,101 WARN  [Server thread] m.r.A.AntiXRay.publish(35): [AntiXRay] Configuration: There's no world named "world_the_end".  Make sure that the worldnames in your config.yml are correct!
+2023-09-10 18:23:40,429 INFO  [Server thread] c.i.i.c.I.CopperItems.publish(37): [CopperItems] Enabling CopperItems v1.0-SNAPSHOT
+2023-09-10 18:23:40,478 INFO  [Server thread] m.c.DeadChest.publish(37): [DeadChest] Enabling DeadChest v4.16.0
+2023-09-10 18:23:40,601 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Enabling Sleeper v1.4.4
+2023-09-10 18:23:40,603 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Sleeper Version 1.4.4 Has Been Enabled!
+2023-09-10 18:23:40,656 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Enabling LaggRemover v2.0.6
+2023-09-10 18:23:40,745 INFO  [Server thread] .onEnable(97): 
+2023-09-10 18:23:40,747 INFO  [Server thread] .onEnable(97):     __                      ____                                         _    _____
+2023-09-10 18:23:40,748 INFO  [Server thread] .onEnable(97):    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+2023-09-10 18:23:40,749 INFO  [Server thread] .onEnable(97):   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+2023-09-10 18:23:40,750 INFO  [Server thread] .onEnable(97):  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+2023-09-10 18:23:40,752 INFO  [Server thread] .onEnable(97): /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+2023-09-10 18:23:40,752 INFO  [Server thread] .onEnable(97):             /____//____/
+2023-09-10 18:23:40,754 INFO  [Server thread] .onEnable(97): 
+2023-09-10 18:23:40,756 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Loaded 0 module(s)
+2023-09-10 18:23:40,757 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] The LaggRemover AI is now active!
+2023-09-10 18:23:40,758 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] LaggRemover has been enabled!
+2023-09-10 18:23:40,761 INFO  [Server thread] n.i.o.Orebfuscator.publish(37): [Orebfuscator] Enabling Orebfuscator v5.4.0
+2023-09-10 18:23:41,263 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Enabling ScoreboardStats v0.10.6
+2023-09-10 18:23:41,300 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Found plugin: HealthBar
+2023-09-10 18:23:41,301 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] You are using plugins that requires to activate compatibilityMode
+2023-09-10 18:23:41,302 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Otherwise the plugins won't work
+2023-09-10 18:23:41,303 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Enable it in the config of this plugin: compatibilityMode
+2023-09-10 18:23:41,398 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] About to download a new update: DeadChest v4.16.1
+2023-09-10 18:23:41,400 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 0% of 123125 bytes.
+2023-09-10 18:23:41,402 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 10% of 123125 bytes.
+2023-09-10 18:23:41,403 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 20% of 123125 bytes.
+2023-09-10 18:23:41,416 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 30% of 123125 bytes.
+2023-09-10 18:23:41,418 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 40% of 123125 bytes.
+2023-09-10 18:23:41,419 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 50% of 123125 bytes.
+2023-09-10 18:23:41,421 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 60% of 123125 bytes.
+2023-09-10 18:23:41,423 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 70% of 123125 bytes.
+2023-09-10 18:23:41,425 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 80% of 123125 bytes.
+2023-09-10 18:23:41,427 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 90% of 123125 bytes.
+2023-09-10 18:23:41,430 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 100% of 123125 bytes.
+2023-09-10 18:23:41,435 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Finished updating.
+2023-09-10 18:23:41,469 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Registered replacers: [BukkitGlobalVariables, BungeeCordVariables, PlayerPingVariable, GeneralVariables, BukkitVariables]
+2023-09-10 18:23:41,473 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Enabling LoginSecurity v3.1.1
+2023-09-10 18:23:41,589 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading base translations from "en_us"
+2023-09-10 18:23:41,596 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading specified translations from "en_us"
+2023-09-10 18:23:41,767 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Registering commands...
+2023-09-10 18:23:41,780 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Registering listeners...
+2023-09-10 18:23:41,838 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Using 1.12+ map captcha renderer
+2023-09-10 18:23:41,869 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Enabling Mohist v1.20.1
+2023-09-10 18:23:41,882 INFO  [Server thread] Minecraft.publish(37): Server permissions file permissions.yml is empty, ignoring it
+2023-09-10 18:23:41,894 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(223): Done (23.309s)! For help, type "help"
+2023-09-10 18:23:41,913 DEBUG [Server thread] n.m.n.DualStackUtils.checkIPv6(87): Detected IPv4 address: "0.0.0.0"
+2023-09-10 18:23:41,922 DEBUG [Server thread] n.m.c.ForgeI18n.loadLanguageData(83): Loading I18N data entries: 225
+2023-09-10 18:23:41,925 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(132): Successfully initialized permission handler forge:default_handler
+2023-09-10 18:23:41,927 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(140): Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+2023-09-10 18:23:41,953 DEBUG [Server thread] i.n.b.AbstractByteBuf.<clinit>(63): -Dio.netty.buffer.checkAccessible: true
+2023-09-10 18:23:41,953 DEBUG [Server thread] i.n.b.AbstractByteBuf.<clinit>(64): -Dio.netty.buffer.checkBounds: true
+2023-09-10 18:23:41,954 DEBUG [Server thread] i.n.u.ResourceLeakDetectorFactory.newResourceLeakDetector(196): Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49304c2
+2023-09-10 18:23:42,009 INFO  [Craft Scheduler Thread - 4] n.i.o.Orebfuscator.publish(37): [Orebfuscator] CacheFileCleanupTask successfully deleted 1 cache file(s)
+2023-09-10 18:23:42,040 DEBUG [Server thread] n.m.c.t.CoreModBaseTransformer.runCoremod(17): Transforming net/minecraft/world/level/NaturalSpawner
+2023-09-10 18:23:42,437 WARN  [Craft Scheduler Thread - 0] Minecraft.publish(35): [TabLocation] There is a new update available.
+2023-09-10 18:23:43,059 INFO  [Server thread] Console.sendMessage(55): §e[ProtocolLib] The updater found an update: 5.1.0 (Running 5.0.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
+2023-09-10 18:28:42,061 DEBUG [Server thread] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1269): Gathering id map for writing to world save world
+2023-09-10 18:28:42,068 DEBUG [Server thread] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1275): ID Map collection complete world
+2023-09-10 18:33:42,011 DEBUG [Server thread] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1269): Gathering id map for writing to world save world
+2023-09-10 18:33:42,018 DEBUG [Server thread] n.m.c.ForgeHooks.writeAdditionalLevelSaveData(1275): ID Map collection complete world

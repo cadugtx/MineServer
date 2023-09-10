@@ -1,0 +1,163 @@
+2023-09-10 18:22:45,405 INFO  [main] c.m.m.Launcher.main(77): ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.70, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, jogui]
+2023-09-10 18:22:45,417 INFO  [main] c.m.m.Launcher.<init>(52): ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 20.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+2023-09-10 18:22:45,637 INFO  [main] n.m.f.l.ImmediateWindowHandler.load(28): ImmediateWindowProvider not loading because launch target is forgeserver
+2023-09-10 18:22:45,710 INFO  [main] mixin.info(97): SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/F:/Minecraft%20Server/MOHIST%20SERVER%201.20/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2396!/ Service=ModLauncher Env=SERVER
+2023-09-10 18:22:46,464 INFO  [main] n.m.f.l.m.JarInJarDependencyLocator.scanMods(57): Found 2 dependencies adding them to mods collection
+2023-09-10 18:22:48,416 INFO  [main] mixin.info(97): Compatibility level set to JAVA_17
+2023-09-10 18:22:48,452 INFO  [main] c.m.m.LaunchServiceHandler.launch(52): Launching target 'forgeserver' with arguments [jogui]
+2023-09-10 18:22:50,273 WARN  [main] o.d.w.p.PerfmonDisabled.isDisabled(52): Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+2023-09-10 18:22:51,253 WARN  [main] o.u.p.w.PerfDataUtil.addCounter(233): Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+2023-09-10 18:22:51,253 WARN  [main] o.u.p.w.PerfCounterQueryHandler.addCounterToQuery(54): Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+2023-09-10 18:22:51,255 WARN  [main] o.u.p.w.PerfCounterQuery.queryValues(77): Disabling further attempts to query Paging File.
+2023-09-10 18:22:56,603 WARN  [main] o.u.p.w.WmiQueryHandler.queryWMI(141): COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+2023-09-10 18:23:02,676 INFO  [modloading-worker-0] n.m.c.ForgeMod.<init>(419): Forge mod loading, version 47.1.70, for MC 1.20.1 with MCP 20230612.114412
+2023-09-10 18:23:02,682 INFO  [modloading-worker-0] n.m.c.MinecraftForge.initialize(41): MinecraftForge v47.1.70 Initialized
+2023-09-10 18:23:02,778 INFO  [modloading-worker-0] c.m.MohistMC.<init>(39): Mohist mod loading.....
+2023-09-10 18:23:02,831 INFO  [modloading-worker-0] c.m.MohistMC.init(39): EventDispatcherRegistry initialized
+2023-09-10 18:23:04,960 INFO  [main] c.m.a.y.YggdrasilAuthenticationService.<init>(56): Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2023-09-10 18:23:08,120 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(106): Loaded 7 recipes
+2023-09-10 18:23:08,243 INFO  [main] n.m.a.AdvancementList.m_139333_(90): Loaded 1271 advancements
+2023-09-10 18:23:08,939 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(145): Starting minecraft server version 1.20.1
+2023-09-10 18:23:08,940 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(150): Loading properties
+2023-09-10 18:23:08,942 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(166): Default game type: SURVIVAL
+2023-09-10 18:23:08,942 INFO  [Server thread] n.m.s.MinecraftServer.m_129793_(1348): Generating keypair
+2023-09-10 18:23:09,088 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(177): Starting Minecraft server on *:25565
+2023-09-10 18:23:09,202 INFO  [Server thread] n.m.s.n.ServerConnectionListener.m_9711_(84): Using default channel type
+2023-09-10 18:23:09,421 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(189): **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2023-09-10 18:23:09,422 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(190): The server will make no attempt to authenticate usernames. Beware.
+2023-09-10 18:23:09,425 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(191): While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2023-09-10 18:23:09,426 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(192): To change this, set "online-mode" to "true" in the server.properties file.
+2023-09-10 18:23:09,502 INFO  [Server thread] Minecraft.publish(37): This server is running Mohist version 1.20.1-359 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.1.44, NeoForge version 47.1.70)
+2023-09-10 18:23:09,698 INFO  [Server thread] Minecraft.publish(37): Debug logging is enabled
+2023-09-10 18:23:09,701 INFO  [Server thread] Minecraft.publish(37): Using 4 threads for Netty based IO
+2023-09-10 18:23:09,704 INFO  [Server thread] .playerSample(273): Server Ping Player Sample Count: 12
+2023-09-10 18:23:09,739 INFO  [Server thread] c.m.MohistMC.handler$zzd000$helloWorld(2460): Hello Plugins!
+2023-09-10 18:23:11,472 WARN  [Server thread] .<clinit>(258): Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+2023-09-10 18:23:14,705 WARN  [Server thread] Minecraft.publish(35): Legacy plugin HealthBar v1.8.3 does not specify an api-version.
+2023-09-10 18:23:15,136 WARN  [Server thread] Minecraft.publish(35): Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+2023-09-10 18:23:15,189 WARN  [Server thread] Minecraft.publish(35): Legacy plugin LoginSecurity v3.1.1 does not specify an api-version.
+2023-09-10 18:23:15,253 INFO  [Server thread] c.j.t.TabLocation.publish(37): [TabLocation] Loading TabLocation v1.4.1
+2023-09-10 18:23:15,256 INFO  [Server thread] c.g.f.h.Main.publish(37): [HealthBar] Loading HealthBar v1.8.3
+2023-09-10 18:23:15,257 INFO  [Server thread] m.r.A.AntiXRay.publish(37): [AntiXRay] Loading AntiXRay v1.9.0
+2023-09-10 18:23:15,259 INFO  [Server thread] c.i.i.c.I.CopperItems.publish(37): [CopperItems] Loading CopperItems v1.0-SNAPSHOT
+2023-09-10 18:23:15,260 INFO  [Server thread] m.c.DeadChest.publish(37): [DeadChest] Loading DeadChest v4.16.0
+2023-09-10 18:23:15,298 INFO  [Server thread] Minecraft.publish(37): [DeadChest] Worldguard support disabled by user
+2023-09-10 18:23:15,300 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Loading Sleeper v1.4.4
+2023-09-10 18:23:15,302 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Loading LaggRemover v2.0.6
+2023-09-10 18:23:15,303 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Loading ProtocolLib v5.0.0
+2023-09-10 18:23:15,485 WARN  [Server thread] c.c.p.ProtocolLib.publish(35): [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+2023-09-10 18:23:18,388 INFO  [Server thread] n.i.o.Orebfuscator.publish(37): [Orebfuscator] Loading Orebfuscator v5.4.0
+2023-09-10 18:23:18,393 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Loading ScoreboardStats v0.10.6
+2023-09-10 18:23:18,395 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading LoginSecurity v3.1.1
+2023-09-10 18:23:18,399 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Enabling ProtocolLib v5.0.0
+2023-09-10 18:23:18,581 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Enabling Mohist v1.20.1
+2023-09-10 18:23:18,665 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(219): Preparing level "world"
+2023-09-10 18:23:19,881 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:overworld
+2023-09-10 18:23:21,150 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,168 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,170 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,387 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:21,896 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:22,384 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:22,889 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:23,467 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 2%
+2023-09-10 18:23:24,119 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:24,386 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:24,890 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:25,390 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:25,885 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:26,390 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 5%
+2023-09-10 18:23:26,931 INFO  [Worker-Main-15] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 6%
+2023-09-10 18:23:27,397 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 14%
+2023-09-10 18:23:27,887 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 17%
+2023-09-10 18:23:28,388 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 22%
+2023-09-10 18:23:28,884 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 22%
+2023-09-10 18:23:29,399 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 27%
+2023-09-10 18:23:29,892 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 35%
+2023-09-10 18:23:30,389 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 39%
+2023-09-10 18:23:30,893 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 45%
+2023-09-10 18:23:31,388 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 58%
+2023-09-10 18:23:31,884 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 73%
+2023-09-10 18:23:32,389 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 84%
+2023-09-10 18:23:32,884 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 95%
+2023-09-10 18:23:33,136 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 13253 ms
+2023-09-10 18:23:33,195 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_nether
+2023-09-10 18:23:33,919 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:33,920 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:34,212 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:34,697 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:35,199 INFO  [Worker-Main-11] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:35,966 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-10 18:23:36,201 INFO  [Worker-Main-10] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 14%
+2023-09-10 18:23:36,697 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 30%
+2023-09-10 18:23:37,197 INFO  [Worker-Main-12] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 75%
+2023-09-10 18:23:37,293 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 4097 ms
+2023-09-10 18:23:37,296 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_end
+2023-09-10 18:23:38,003 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,005 INFO  [Worker-Main-9] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,298 INFO  [Worker-Main-8] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:38,800 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-10 18:23:39,318 INFO  [Worker-Main-13] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 10%
+2023-09-10 18:23:39,789 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 2492 ms
+2023-09-10 18:23:39,791 INFO  [Server thread] c.j.t.TabLocation.publish(37): [TabLocation] Enabling TabLocation v1.4.1
+2023-09-10 18:23:39,836 INFO  [Server thread] Minecraft.publish(37): ===================================
+2023-09-10 18:23:39,837 INFO  [Server thread] Minecraft.publish(37): Plugin has been enabled!
+2023-09-10 18:23:39,838 INFO  [Server thread] Minecraft.publish(37): You are using §aTabLocation,
+2023-09-10 18:23:39,839 INFO  [Server thread] Minecraft.publish(37): Version §61.4.1
+2023-09-10 18:23:39,840 INFO  [Server thread] Minecraft.publish(37): Java version §620.0.2
+2023-09-10 18:23:39,841 INFO  [Server thread] Minecraft.publish(37): Developed by §ajamesina
+2023-09-10 18:23:39,842 INFO  [Server thread] Minecraft.publish(37): ===================================
+2023-09-10 18:23:39,847 INFO  [Server thread] c.g.f.h.Main.publish(37): [HealthBar] Enabling HealthBar v1.8.3
+2023-09-10 18:23:40,087 INFO  [Server thread] m.r.A.AntiXRay.publish(37): [AntiXRay] Enabling AntiXRay v1.9.0
+2023-09-10 18:23:40,099 WARN  [Server thread] m.r.A.AntiXRay.publish(35): [AntiXRay] Configuration: There's no world named "world_nether".  Make sure that the worldnames in your config.yml are correct!
+2023-09-10 18:23:40,101 WARN  [Server thread] m.r.A.AntiXRay.publish(35): [AntiXRay] Configuration: There's no world named "world_the_end".  Make sure that the worldnames in your config.yml are correct!
+2023-09-10 18:23:40,429 INFO  [Server thread] c.i.i.c.I.CopperItems.publish(37): [CopperItems] Enabling CopperItems v1.0-SNAPSHOT
+2023-09-10 18:23:40,478 INFO  [Server thread] m.c.DeadChest.publish(37): [DeadChest] Enabling DeadChest v4.16.0
+2023-09-10 18:23:40,601 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Enabling Sleeper v1.4.4
+2023-09-10 18:23:40,603 INFO  [Server thread] s.m.Main.publish(37): [Sleeper] Sleeper Version 1.4.4 Has Been Enabled!
+2023-09-10 18:23:40,656 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Enabling LaggRemover v2.0.6
+2023-09-10 18:23:40,745 INFO  [Server thread] .onEnable(97): 
+2023-09-10 18:23:40,747 INFO  [Server thread] .onEnable(97):     __                      ____                                         _    _____
+2023-09-10 18:23:40,748 INFO  [Server thread] .onEnable(97):    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+2023-09-10 18:23:40,749 INFO  [Server thread] .onEnable(97):   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+2023-09-10 18:23:40,750 INFO  [Server thread] .onEnable(97):  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+2023-09-10 18:23:40,752 INFO  [Server thread] .onEnable(97): /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+2023-09-10 18:23:40,752 INFO  [Server thread] .onEnable(97):             /____//____/
+2023-09-10 18:23:40,754 INFO  [Server thread] .onEnable(97): 
+2023-09-10 18:23:40,756 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] Loaded 0 module(s)
+2023-09-10 18:23:40,757 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] The LaggRemover AI is now active!
+2023-09-10 18:23:40,758 INFO  [Server thread] d.l.m.LaggRemover.publish(37): [LaggRemover] LaggRemover has been enabled!
+2023-09-10 18:23:40,761 INFO  [Server thread] n.i.o.Orebfuscator.publish(37): [Orebfuscator] Enabling Orebfuscator v5.4.0
+2023-09-10 18:23:41,263 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Enabling ScoreboardStats v0.10.6
+2023-09-10 18:23:41,300 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Found plugin: HealthBar
+2023-09-10 18:23:41,301 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] You are using plugins that requires to activate compatibilityMode
+2023-09-10 18:23:41,302 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Otherwise the plugins won't work
+2023-09-10 18:23:41,303 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Enable it in the config of this plugin: compatibilityMode
+2023-09-10 18:23:41,398 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] About to download a new update: DeadChest v4.16.1
+2023-09-10 18:23:41,400 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 0% of 123125 bytes.
+2023-09-10 18:23:41,402 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 10% of 123125 bytes.
+2023-09-10 18:23:41,403 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 20% of 123125 bytes.
+2023-09-10 18:23:41,416 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 30% of 123125 bytes.
+2023-09-10 18:23:41,418 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 40% of 123125 bytes.
+2023-09-10 18:23:41,419 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 50% of 123125 bytes.
+2023-09-10 18:23:41,421 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 60% of 123125 bytes.
+2023-09-10 18:23:41,423 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 70% of 123125 bytes.
+2023-09-10 18:23:41,425 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 80% of 123125 bytes.
+2023-09-10 18:23:41,427 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 90% of 123125 bytes.
+2023-09-10 18:23:41,430 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Downloading update: 100% of 123125 bytes.
+2023-09-10 18:23:41,435 INFO  [Thread-11] m.c.DeadChest.publish(37): [DeadChest] Finished updating.
+2023-09-10 18:23:41,469 INFO  [Server thread] c.g.g.s.ScoreboardStats.publish(37): [ScoreboardStats] Registered replacers: [BukkitGlobalVariables, BungeeCordVariables, PlayerPingVariable, GeneralVariables, BukkitVariables]
+2023-09-10 18:23:41,473 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Enabling LoginSecurity v3.1.1
+2023-09-10 18:23:41,589 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading base translations from "en_us"
+2023-09-10 18:23:41,596 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Loading specified translations from "en_us"
+2023-09-10 18:23:41,767 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Registering commands...
+2023-09-10 18:23:41,780 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Registering listeners...
+2023-09-10 18:23:41,838 INFO  [Server thread] c.l.b.l.LoginSecurity.publish(37): [LoginSecurity] Using 1.12+ map captcha renderer
+2023-09-10 18:23:41,869 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Enabling Mohist v1.20.1
+2023-09-10 18:23:41,882 INFO  [Server thread] Minecraft.publish(37): Server permissions file permissions.yml is empty, ignoring it
+2023-09-10 18:23:41,894 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(223): Done (23.309s)! For help, type "help"
+2023-09-10 18:23:41,925 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(132): Successfully initialized permission handler forge:default_handler
+2023-09-10 18:23:41,927 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(140): Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+2023-09-10 18:23:42,009 INFO  [Craft Scheduler Thread - 4] n.i.o.Orebfuscator.publish(37): [Orebfuscator] CacheFileCleanupTask successfully deleted 1 cache file(s)
+2023-09-10 18:23:42,437 WARN  [Craft Scheduler Thread - 0] Minecraft.publish(35): [TabLocation] There is a new update available.
+2023-09-10 18:23:43,059 INFO  [Server thread] Console.sendMessage(55): §e[ProtocolLib] The updater found an update: 5.1.0 (Running 5.0.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
