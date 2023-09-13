@@ -46,7 +46,7 @@ ban:
     enable: false
     list: []
 motd:
-  firstline: <RAINBOW1>A Minecraft Server</RAINBOW>
+  firstline: <RAINBOW1>Server da rapaziada (JONATINHA E BI)</RAINBOW>
   secondline: ''
 settings:
   messages:
@@ -57,8 +57,8 @@ forge:
   bukkitpermissionshandler: true
 mohist:
   show_logo: true
-  lang: xx_XX
-  vanilla_lang: en_us
+  lang: pt_BR
+  vanilla_lang: pt_BR
   check_update: true
   libraries:
     check: true
